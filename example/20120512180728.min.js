@@ -1,0 +1,2 @@
+// 20120512180728.js
+(function(){var a=function(b){return a.modules[b]};a.modules={};var b,c;b={},c={window:window,document:document,require:a},function(a){a.aFun=function(){return"aFun from test1"}}.call(c,b),a.modules.test1=b,b={},c={window:window,document:document,require:a},function(a){a.aFun=function(){return"aFun from test2"}}.call(c,b),a.modules.test2=b,b={},c={window:window,document:document,require:a},function(b){document.write(a("test1").aFun()),document.write(a("test2").aFun())}.call(c,b),a.modules["zzz-main"]=b}).call(this);
